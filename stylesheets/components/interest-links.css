@@ -1,0 +1,91 @@
+/* Your code here */
+.interest__bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-template-areas: "dog_img dog_text cat_img cat_text plug_img plug_text stocks weather_img temp";
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+.dog_img {
+    grid-area: dog_img;
+}
+
+.dog_text {
+    grid-area: dog_text;
+}
+
+.cat_img {
+    grid-area: cat_img;
+}
+
+.cat_text {
+    grid-area: cat_text;
+}
+
+.plug_img {
+    grid-area: plug_img;
+}
+
+.plug_text {
+    grid-area: plug_text;
+}
+
+.wsb {
+    grid-area: stocks;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather_img {
+    grid-area: weather_img;
+}
+
+.temp {
+    grid-area: temp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dog_text, .cat_text, .plug_text, .wsb {
+    border-right: 2px solid #e2e2e2;
+}
+
+.interests-bar__image {
+    margin: 5px;
+}
+
+.interests-bar__headline {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.interests-bar__story {
+    margin: 5px;
+}
+
+.interests-bar__stock-price {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.interests-bar__stock-price > span {
+    margin: 5px;
+}
+
+.interests-bar__price {
+    margin: 5px;
+    color: green;
+}
+
+.bottom_border {
+    border-bottom: 2px solid #e2e2e2;
+}

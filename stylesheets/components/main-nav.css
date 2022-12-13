@@ -1,0 +1,13 @@
+/* Your code here */
+.main {
+    font-size: 12px;
+}
+
+.main ul {
+    display: flex;
+    justify-content: center;
+}
+
+.main ul li {
+    margin: 10px;
+}
